@@ -1,0 +1,11 @@
+.place__website {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  grid-area: place__website;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 12px;
+}

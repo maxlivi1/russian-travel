@@ -1,0 +1,12 @@
+.place {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, auto);
+  gap: 48px 40px;
+  grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraphs";
+}
