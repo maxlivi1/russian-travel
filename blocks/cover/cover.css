@@ -3,21 +3,23 @@
   padding: 0;
   box-sizing: border-box;
   position: relative;
-  /* display: flex; */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   justify-items: center;
   align-items: center;
-  /* flex-direction: column;
-  align-items: center;
-  justify-content: center; */
-  /* background-image: url(../../images/background.png); */
   z-index: 0;
-  /* background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; */
   max-width: 100%;
+}
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover {
+    grid-template-columns: minmax(1100px, 100hw);
+  }
+}
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover {
+    margin-top: 90px;
+  }
 }
