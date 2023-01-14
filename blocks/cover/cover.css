@@ -1,13 +1,23 @@
 .cover {
-  margin: 92px 48px 0 48px;
-  padding: 245px 312px 245px 312px;
+  margin: 92px 0 0 0;
+  padding: 0;
   box-sizing: border-box;
   position: relative;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
-  gap: 32px;
-  background-image: url(../../images/background.png);
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  /* background-image: url(../../images/background.png); */
   z-index: 0;
+  /* background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; */
+  max-width: 100%;
+
+
 }
