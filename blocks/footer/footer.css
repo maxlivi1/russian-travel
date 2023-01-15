@@ -37,3 +37,18 @@
     margin-top: 88px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    margin-top: 64px;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+  }
+
+  .footer ul {
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+  }
+}
