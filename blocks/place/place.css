@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 460px 1fr;
   grid-template-rows: repeat(2, auto);
   gap: 48px 40px;
   grid-template-areas:
@@ -13,12 +13,14 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
+    grid-template-columns: 440px 1fr;
     column-gap:32px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
+    grid-template-columns: 340px 1fr;
     column-gap: 28px;
   }
 }
