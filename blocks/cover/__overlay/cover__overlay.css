@@ -1,20 +1,18 @@
 .cover__overlay {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2A2C2F;
   position: absolute;
   top: 0;
   bottom: 0;
   z-index: 0;
-  opacity: 0.3;
   width: 100%;
   text-decoration: none;
 }
 
-.cover__overlay:hover {
+.cover__overlay:hover .cover__background {
   opacity: 0.8;
 }
