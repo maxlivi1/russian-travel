@@ -4,7 +4,8 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  background-color: #2A2C2F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 1280px;
+  border: 1px solid goldenrod;
 }
