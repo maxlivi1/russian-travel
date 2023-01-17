@@ -1,0 +1,11 @@
+.link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+
+.link:hover {
+  opacity: 0.5;
+}
